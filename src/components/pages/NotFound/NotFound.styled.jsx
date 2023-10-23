@@ -15,7 +15,7 @@ export const ListItem = styled.li`
     margin-bottom: 10px;
   }
 `;
-export const InfoLink = styled(Link)`
+export const NavLink = styled(Link)`
   color: black;
   text-decoration: none;
   font-weight: 500;

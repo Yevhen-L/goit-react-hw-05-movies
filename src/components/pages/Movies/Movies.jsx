@@ -5,8 +5,8 @@ import Button from '@mui/material/Button';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { getMoviesByName } from 'services/api';
 import { List, ListItem, MovieLink, Form } from './Movies.styled';
+import { getMoviesByName } from 'components/Services/api';
 
 const Movies = () => {
   const [movies, setMovies] = useState([]);

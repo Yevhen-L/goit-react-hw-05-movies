@@ -1,4 +1,5 @@
-import { ListItem, Link, Wrapper } from './NotFound.styled';
+import { NavLink, ListItem, Wrapper } from './NotFound.styled';
+
 const NotFound = () => {
   return (
     <Wrapper>
@@ -6,15 +7,14 @@ const NotFound = () => {
       <p>Here are some helpful links:</p>
       <ul>
         <ListItem>
-          <Link to="/">Home</Link>
+          <NavLink to="/">Home</NavLink>
         </ListItem>
 
         <ListItem>
-          <Link to="/movies">Movies</Link>{' '}
+          <NavLink to="/movies">Movies</NavLink>
         </ListItem>
       </ul>
     </Wrapper>
   );
 };
-
 export default NotFound;

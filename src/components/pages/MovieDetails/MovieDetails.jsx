@@ -1,7 +1,7 @@
 import { useEffect, useState, Suspense } from 'react';
 import { Outlet, useParams, useLocation, useNavigate } from 'react-router-dom';
 import { TiChevronLeft } from 'react-icons/ti';
-import { getMovieById } from 'services/api';
+import { getMovieById } from 'components/Services/api';
 import blankImage from '../../images/blank_profile.png';
 import {
   MovieCard,

@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getCredits } from 'Services/api';
-import blankImage from '../../images/blank_profile.png';
-// import { ListItem, Section, List } from './Cast.styled';
-
+import { ListItem, Section, List } from './Cast.styled';
+import { getCredits } from 'components/Services/api';
+import blankImage from '../images/blank_profile.png';
 const IMAGEURL = 'https://image.tmdb.org/t/p/w500';
 
 const Cast = () => {
