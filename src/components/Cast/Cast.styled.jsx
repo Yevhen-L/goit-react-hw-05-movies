@@ -5,6 +5,11 @@ export const ListItem = styled.li`
   gap: 10px;
   align-items: center;
   justify-content: start;
+  export const MovieList = styled(Link);
+  text-decoration: none;
+  &:hover {
+    color: #404bbf;
+  }
 `;
 
 export const Section = styled.section`

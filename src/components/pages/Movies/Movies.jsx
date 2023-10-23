@@ -55,13 +55,11 @@ const Movies = () => {
           name="movie"
           placeholder="Enter the movie..."
           autoComplete="off"
-          color="secondary"
           defaultValue={movieName}
         />
         <Button
           type="submit"
           variant="outlined"
-          color="secondary"
           size="small"
           endIcon={<AiOutlineSearch />}
         >

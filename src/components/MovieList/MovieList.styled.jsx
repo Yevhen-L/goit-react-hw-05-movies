@@ -14,7 +14,8 @@ export const TrendingMovieLink = styled(Link)`
   color: black;
   text-decoration: none;
   font-weight: 500;
-  :hover {
-    color: #ab47bc;
+  text-decoration: none;
+  &:hover {
+    color: #404bbf;
   }
 `;

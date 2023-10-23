@@ -24,14 +24,9 @@ export const Link = styled(NavLink)`
   text-decoration: none;
   color: black;
   font-weight: 500;
-  &.active {
-    color: white;
-    background-color: #ab47bc;
-    :hover {
-      background-color: #773183;
-    }
-  }
-  :hover:not(.active) {
-    color: #ab47bc;
-  }
+   background-color: #4d5ae5;
+  color: white;
+  text-decoration: none;
+  &:hover {
+    background-color: #404bbf;
 `;

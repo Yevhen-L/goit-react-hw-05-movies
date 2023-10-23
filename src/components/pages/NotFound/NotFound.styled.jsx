@@ -20,7 +20,7 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   font-weight: 500;
 
-  :hover {
-    color: #ab47bc;
+  &:hover {
+    color: #404bbf;
   }
 `;
