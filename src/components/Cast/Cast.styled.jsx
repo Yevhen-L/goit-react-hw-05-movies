@@ -1,15 +1,14 @@
 import styled from 'styled-components';
 
 export const ListItem = styled.li`
+  margin-top: 10px;
+  padding-left: 10px;
   display: flex;
-  gap: 10px;
+  flex-direction: row;
+  gap: 32px;
   align-items: center;
   justify-content: start;
-  export const MovieList = styled(Link);
-  text-decoration: none;
-  &:hover {
-    color: #404bbf;
-  }
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 `;
 
 export const Section = styled.section`
@@ -17,6 +16,7 @@ export const Section = styled.section`
 `;
 
 export const List = styled.ul`
+  margin-top: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
